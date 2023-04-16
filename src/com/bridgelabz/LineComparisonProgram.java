@@ -34,8 +34,7 @@ public class LineComparisonProgram {
 
         String line1 = String.valueOf(lengthOfLine1);
         String line2 = String.valueOf(lengthOfLine2);
-        boolean result = line1.equals(line2);
-        if (result == true)
+        if (line1.equals(line2))
             System.out.println("Two Lines are EQUAL");
         else
             System.out.println("Two Lines are NOT Equal");
